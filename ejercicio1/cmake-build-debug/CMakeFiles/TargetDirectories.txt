@@ -1,0 +1,3 @@
+C:/Users/usuario/Documents/GitHub/caso-final-integrador/ejercicio1/cmake-build-debug/CMakeFiles/ejercicio1.dir
+C:/Users/usuario/Documents/GitHub/caso-final-integrador/ejercicio1/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/usuario/Documents/GitHub/caso-final-integrador/ejercicio1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
