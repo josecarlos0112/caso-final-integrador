@@ -27,7 +27,7 @@ void load_script(const char* filename, bool show_script = false)
         f = fopen(filename, "rb");
         if (!f)
         {
-            cerr << "error de apertura de " << filename << endl;
+            cerr << "Error en la apertura de " << filename << endl;
             return;
         }
 
@@ -51,7 +51,7 @@ void load_script(const char* filename, bool show_script = false)
     }
     catch (...)
     {
-        cerr << "error durante la lectura del archivo" << endl;
+        cerr << "Error en la lectura del archivo: " << endl;
         if(f)
             fclose(f);
     }
@@ -66,6 +66,6 @@ void load_script()
 }
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    std::cout << "Prueba 1" << std::endl;
     return 0;
 }
