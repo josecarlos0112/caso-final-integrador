@@ -66,6 +66,29 @@ void load_script()
 }
 
 int main() {
-    std::cout << "Prueba 1" << std::endl;
+    cout << "Bienvenido a la carga de scripts en Tiny-Lisp" << endl;
+
+    while (true) {
+        cout << "1. Cargar script desde archivo\n"
+                "2. Salir\n"
+                "Seleccione una opción: ";
+
+        int option;
+        cin >> option;
+
+        switch (option) {
+            case 1:
+                load_script();
+                break;
+            case 2:
+                cout << "Saliendo del programa. ¡Hasta luego!" << endl;
+                return 0;
+            default:
+                cout << "Opción no válida. Por favor, seleccione nuevamente." << endl;
+                break;
+        }
+    }
+
     return 0;
 }
+
